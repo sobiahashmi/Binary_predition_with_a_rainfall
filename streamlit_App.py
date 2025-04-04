@@ -12,11 +12,11 @@ if st.sidebar.button("Celebrate!"):
 if st.sidebar.button("More Balloons!"):
     for _ in range(3):  # Show balloons 3 times
         st.sidebar.balloons()
-        time.sleep(1)  # Add a short delay between balloon bursts
+        time.sleep(2)  # Add a short delay between balloon bursts
 
 if st.sidebar.button("Party Mode!"):
     st.sidebar.balloons()
-    time.sleep(1)
+    time.sleep(2)
     st.sidebar.snow()  # Adds a snowfall effect after balloons
 
 model = load('random_forest_rainfall.joblib')

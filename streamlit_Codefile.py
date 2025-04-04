@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from joblib import dump
 
 # Load Dataset
-rainfall = pd.read_csv('../train.csv')
+rainfall = pd.read_csv('train.csv')
 rainfall.head()
 print("Shape of the Train dataset: ", rainfall.shape)
 
